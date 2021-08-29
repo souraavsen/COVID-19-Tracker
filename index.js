@@ -12,7 +12,6 @@ goBtn.addEventListener("click", function () {
   fetch(`https://corona.lmao.ninja/v2/countries/${searched.value}`)
     .then((response) => response.json())
     .then((result) => injectData(result));
-  // searched.value = "";
 });
 
 function injectData(data) {
