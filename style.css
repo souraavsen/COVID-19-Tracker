@@ -1,0 +1,12 @@
+body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      main{
+           background-image: url(./bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
